@@ -113,7 +113,6 @@ P,h1,h2,h3,h4,h5,h6,ul,li{
     width: 100%;
     z-index: 2000;
     transition: 0.3s;
-    padding-left: 35px;
 }
 .toggle-icon{
     font-size: 25px;
@@ -165,7 +164,6 @@ P,h1,h2,h3,h4,h5,h6,ul,li{
     font-weight: 800;
     text-transform: capitalize;
     -webkit-text-stroke:2px var(--primary);
-    font-size: 8rem;
     line-height: 70px;
     color: rgb(255, 255, 255);
     margin-right: 15px;
@@ -898,7 +896,7 @@ a:link{
       font-size: 9px;
   }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .center{
       justify-content: center;
     }
@@ -923,6 +921,13 @@ a:link{
     html{
         font-size: 8px;
     }
+    .inner_text{
+        padding-left: 10px;
+        justify-content: flex-start;
+        text-align: left;
+        align-items: flex-start;
+    }
+
   }
   @media only screen and (max-width: 686px) {
     .center{
@@ -962,28 +967,28 @@ a:link{
         font-size: 13px;
     }
   }
-   @media only screen and (max-width: 353px) {
+  @media only screen and (max-width: 471px){
+     .main_heading{
+         font-size: 6rem;
+     }
+  }
+   @media only screen and (max-width: 390px) {
        .main_heading{
-           font-size: 40px;
+           font-size: 5rem;
        }
-       .sp_text{
-           font-size: 25px;
-       }
-       html{
-        font-size: 6px;
-    }
    }
+   @media only screen and (max-width: 390px) {
+    .main_heading{
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .main_heading{
+        font-size: 3.5rem;
+    }
+}
    @media only screen and (max-width: 280px) {
     .main_heading{
-        font-size: 30px;
-    }
-    .sp_text{
-        font-size: 30px;
-    }
-    .sec2_para{
-        font-size: 10px;
-    }
-    html{
-        font-size: 5px;
+        font-size: 3rem;
     }
 }
