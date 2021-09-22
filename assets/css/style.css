@@ -29,7 +29,7 @@ P,h1,h2,h3,h4,h5,h6,ul,li{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 265px;
+    padding-bottom: 135px;
     position: relative;
 }
 /* .hero_img::before{
@@ -264,9 +264,11 @@ a:link{
     font-weight: 600;
     text-align: center;
     border-radius: 70px;
-    margin-left: 15px;
     margin-bottom: 20px;
     font-size: 18px;
+}
+.set_list{
+    margin-right: 15px;
 }
 .list_style:hover{
     background-color: var(--primary) !important;
@@ -290,6 +292,9 @@ a:link{
     font-weight: 500;
     line-height: 50px;
     font-size: 1.8rem;
+}
+.award_list{
+    margin-left: 20px;
 }
 .award_list span:nth-child(1){
     color: var(--primary);
@@ -347,30 +352,25 @@ a:link{
 .progress{
     height: 0.30rem;
 }
-.award_list{
-    padding-top: 20px;
-    margin-left: 25px;
-}
+
 .award_list li{
     font-size: 16px;
-    line-height: 15px;
     margin-bottom: 15px;
-    font-weight: 300;
+    font-weight: 500;
     color: rgba(198, 201, 216, 0.75);
     list-style-type:none;
-}
-.award_list li a{
-    font-weight: 500;
 }
 .award_list li span{
     font-weight: 500;
     color: black;
+    font-size: 16px;
+    line-height: 40px;
     
 }
 .award_list li p{
     font-weight: 500;
     color: black !important;
-    margin-top: 10px;
+    font-size: 16px;
     
 }
 .sec2_bg_color{
@@ -517,6 +517,54 @@ a:link{
 .vid_btn a i{
     color: white;
     font-size: 22px;
+}
+
+
+/* education css */
+.education{
+    margin-top: 80px;
+    text-align: center;
+}
+.education_content{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.education_content h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.education_content i{
+    font-size: 140px;
+    color: var(--primary);
+    margin-top: 20px;
+}
+
+.detail li{
+    font-size: 16px;
+    line-height: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: rgba(198, 201, 216, 0.75);
+    list-style-type:none;
+}
+.detail li span{
+    font-weight: 700;
+    color: black;
+    font-size: 2rem;
+    line-height: 40px;
+    
+}
+.detail li p{
+    font-weight: 500;
+    color: black !important;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 35px;
+}
+.set_edu_row{
+    flex-direction: row-reverse;
 }
 
 @keyframes play_btn_pulse{
@@ -966,6 +1014,9 @@ a:link{
     .sec2_para{
         font-size: 13px;
     }
+    .set_list{
+        margin-right: 0px;
+    }
   }
   @media only screen and (max-width: 471px){
      .main_heading{
@@ -979,15 +1030,20 @@ a:link{
    }
    @media only screen and (max-width: 390px) {
     .main_heading{
+        font-size: 4.5rem;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .main_heading{
         font-size: 4rem;
     }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 310px) {
     .main_heading{
-        font-size: 3.5rem;
+        font-size: 3.6rem;
     }
 }
-   @media only screen and (max-width: 280px) {
+   @media only screen and (max-width: 285px) {
     .main_heading{
         font-size: 3rem;
     }
